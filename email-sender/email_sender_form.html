@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Email_Sender</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="email_sender_form_styles.css"/>
+    </head>
+    <body>
+        <div class="email_sender">
+            <div class="div_0">
+                <img  alt="" src="sources/images/message.png"/>
+            </div>
+            <div class="div_1">
+                <p>Hello this web page has made by <b>Behrang Abad Foomani.</b></p>                                           
+            </div>        
+            <div class="div_2">
+                <form method="post" action="send_and_check.php">
+                    <input type="email" placeholder="To" name="sender"/>
+                    <br/>
+                    <input type="text" placeholder="Subject" name="subject"/>
+                    <br/>                  
+                    <textarea type="text"  placeholder="Type something" name="text">           
+                    </textarea>
+                    <br/>
+                    <button type="submit">
+                        <b>Send</b>
+                    </button>
+                </form>
+            </div>        
+        </div>
+    </body>
+</html>

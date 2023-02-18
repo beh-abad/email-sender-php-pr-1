@@ -1,0 +1,88 @@
+body
+{
+    background-image: url(sources/images/na.jpg);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.email_sender
+{
+    position:relative;
+    width: 500px;
+    height: 580px;
+    padding: 10px; 
+    background-color:rgba(255, 255, 255, 0.35);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 30px;  
+}
+.div_0
+{
+    padding-top: 18px;
+    background-color: rgba(255, 255, 255,0.6);
+    width:100px;
+    height: 80px;
+    border-radius: 100px;
+    margin-bottom: 5px; 
+}
+.div_1 p
+{
+    font-size: 17px;
+    font-family: sans-serif;
+}
+.div_1
+{
+    margin-bottom: 5px;
+}
+.div_2 input
+{
+    width: 300px;
+    height: 40px;
+    font-family: sans-serif;
+    font-size: 16px;
+    text-indent: 20px;
+    border:none;
+    outline: none;
+    border-radius: 30px;
+    margin-bottom: 20px;
+}
+.div_2 textarea
+{
+    width: 385px;
+    height: 185px;
+    border: none;
+    outline: none;
+    margin-bottom: 10px;
+    font-family: sans-serif;
+    font-size: 16px;
+    padding: 15px;
+    place-content: none;
+}
+.div_2 button
+{
+    width: 200px;
+   
+    font-family: sans-serif;
+    font-size: 16px;  
+    background-color:green;
+    border:none;
+    outline: none;
+    border-radius: 40px;
+    padding: 10px;
+  
+}
+.div_2 button:hover
+{
+      background-color:greenyellow;
+}
+.div_2 button:active
+{
+    background-color:greenyellow;
+}
+
